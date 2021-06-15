@@ -2,7 +2,7 @@
   background: #eee;
   width: 700px;
   height: 800px;
-  margin: 70px 0 0 50px;
+  margin: 50px 0 0 50px;
 
   /* method 1 */
   /* display: grid;
@@ -44,11 +44,33 @@
   grid-template-columns: 50% repeat(3, 200px);
   grid-template-rows: 150px 100px 100px; */
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 50% repeat(2, 200px);
   grid-template-rows: 1fr 200px;
 
-  grid-gap: 20px;
+  grid-gap: 20px; */
+
+  /* CSS_GRID GAP */
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px 100px 100px;
+
+  grid-row-gap: 15px;
+  grid-column-gap: 50px; */
+
+  /* CSS_GRID GAP method 2 */
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px 100px 100px;
+
+  grid-gap: 15px 50px; */
+
+  /* CSS_GRID GAP method 3 */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 100px 100px;
+
+  grid-gap: 15px 50px;
 }
 
 .items1 {
