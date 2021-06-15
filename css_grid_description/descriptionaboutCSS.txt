@@ -1,0 +1,7 @@
+* Two deimensional grid
+
+* CSS Grid Layout replaces float layout 
+
+* Fast and Clean code
+
+* No need of CSS Frameworks 

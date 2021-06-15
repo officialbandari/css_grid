@@ -1,0 +1,71 @@
+.container {
+  background: #eee;
+  width: 700px;
+  height: 800px;
+  margin: 70px 0 0 50px;
+
+  /* method 1 */
+  /* display: grid;
+  grid-template-columns: 250px 250px 150px;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 2 here we can use auto keyword for selecting rest of the space */
+  /* display: grid;
+  grid-template-columns: 250px auto 150px;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 3 here we can take % also  */
+  /* display: grid;
+  grid-template-columns: 55% 25% auto;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 4  */
+  /* display: grid;
+  grid-template-columns: 55% 100px auto;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 5  */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 6  */
+  /* display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 7 here we can use repeat() function  */
+  /* display: grid;
+  grid-template-columns: repeat(3, 200px) 1fr;
+  grid-template-rows: 150px 100px 100px; */
+
+  /* method 2 here we can take % also  */
+  /* display: grid;
+  grid-template-columns: 50% repeat(3, 200px);
+  grid-template-rows: 150px 100px 100px; */
+
+  display: grid;
+  grid-template-columns: 50% repeat(2, 200px);
+  grid-template-rows: 1fr 200px;
+
+  grid-gap: 20px;
+}
+
+.items1 {
+  background: orangered;
+}
+.items2 {
+  background: yellowgreen;
+}
+.items3 {
+  background: slateblue;
+}
+.items4 {
+  background: hotpink;
+}
+.items5 {
+  background: royalblue;
+}
+.items6 {
+  background: goldenrod;
+}
